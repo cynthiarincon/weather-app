@@ -214,6 +214,23 @@ footer p {
     font-size: 0.9rem;
 }
 
+
+
+/* Bouncing animated emojis (: */
+.animation {
+    text-align: center;
+    font-size: 4rem;
+    margin: 20px 0;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+
+
 /* Mobile responsive */
 @media (max-width: 600px) {
     header {
