@@ -6,14 +6,36 @@
     <title>Help</title>
     <link rel="icon" href="/img/cloudy-day.png">
     <link rel="stylesheet" href="/css/styles.css">
-
 </head>
 <body>
     <div class="main-content">
         {{>header}}
-        <p>{{message}}</p>
-    </div>  
-    
+        
+        <h2>How to Use Cynrise Forecast</h2>
+        
+        <div class="help-section">
+            <h3>Getting Started</h3>
+            <p>Simply enter any city name or location in the search box on the homepage and click "Search" to get current weather conditions.</p>
+        </div>
+        
+        <div class="help-section">
+            <h3>What You'll See</h3>
+            <p>The app displays the location name, current temperature, weather description, and "feels like" temperature to give you a complete picture of the conditions.</p>
+        </div>
+        
+        <div class="help-section">
+            <h3>Tips</h3>
+            <p>• Try searching by city name (e.g., "Boston")</p>
+            <p>• Include state for more specific results (e.g., "Portland, Maine")</p>
+            <p>• Works for locations worldwide!</p>
+        </div>
+        
+        <div class="help-section">
+            <h3>Need More Help?</h3>
+            <p>This app uses real-time data from WeatherStack and Mapbox APIs to provide accurate weather information.</p>
+        </div>
+    </div>
+
     {{>footer}}
 </body>
 </html>
