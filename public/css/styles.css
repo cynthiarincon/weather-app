@@ -11,6 +11,8 @@ body {
     background: #FFB74D;
     min-height: 100vh;
     color: #333;
+    display:flex;
+    flex-direction:column;
 }
 
 /* Top navigation bar - more compact */
